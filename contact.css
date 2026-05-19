@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+    min-height: 100vh;
+}
+
+/* NAVBAR */
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.followlinks{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.followlinks:hover{
+    color: #38bdf8;
+}
+
+/* PAGE TITLE */
+
+h1{
+    text-align: center;
+    margin: 40px 0;
+    font-size: 3rem;
+    color: #38bdf8;
+    letter-spacing: 2px;
+}
+
+/* MAIN SECTION */
+
+#div1{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+}
+
+/* MAP */
+
+iframe{
+    border-radius: 20px;
+    width: 500px;
+    max-width: 100%;
+    min-height: 500px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.4);
+}
+
+/* FORM CARD */
+
+#formbackground{
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 20px;
+    padding: 35px;
+    width: 400px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+}
+
+#formbackground h2{
+    text-align: center;
+    margin-bottom: 25px;
+    color: #38bdf8;
+}
+
+/* FORM ELEMENTS */
+
+.forms{
+    margin-bottom: 20px;
+}
+
+.form{
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+}
+
+input,
+textarea{
+    background: rgba(255,255,255,0.9);
+    color: #111827;
+}
+
+textarea{
+    resize: none;
+}
+
+/* BUTTON */
+
+button{
+    background: #38bdf8;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #0ea5e9;
+    transform: translateY(-2px);
+}
+
+/* FOOTER */
+
+footer{
+    text-align: center;
+    padding: 25px;
+    background: rgba(255,255,255,0.05);
+    color: #d1d5db;
+}

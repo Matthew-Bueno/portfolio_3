@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+    min-height: 100vh;
+}
+
+#div1{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+#head1{
+    font-size: 2rem;
+    letter-spacing: 2px;
+    text-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+#dogpic{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #38bdf8;
+}
+
+#nav1{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding: 20px;
+}
+
+#nav1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    position: relative;
+}
+
+#nav1 a:hover{
+    color: #38bdf8;
+}
+
+#div2{
+    text-align: center;
+    padding: 20px 20px 80px;
+    max-width: 900px;
+    margin: auto;
+}
+
+#head2{
+    margin-bottom: 25px;
+    color: #38bdf8;
+}
+
+#div2 p{
+    color: #d1d5bd;
+    margin-bottom: 15px;
+}
+
+.boxdivs{
+    width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    padding-bottom: 100px;
+}
+
+.box1{
+    background: rgba( 255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 35px 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box1 h2{
+    margin-bottom: 20px;
+    color: #38bdf8;
+}
+
+.box1 p{
+    color: #d1d5bd;
+    line-height: 1.7;
+}
+
+footer{
+    text-align: center;
+    padding: 25px;
+    background: rgba(255,255,255,0.05);
+    color: #d1d5db;
+    margin-top: 50px;
+}
